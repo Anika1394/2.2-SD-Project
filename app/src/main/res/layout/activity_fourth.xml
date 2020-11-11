@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="360dp"
+    android:layout_height="650dp"
+    android:background="@drawable/diet4"
+    android:layout_marginTop="5dp"
+    tools:context=".FourthActivity">
+
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="650dp">
+
+
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="650dp"
+            android:orientation="vertical">
+            <Button
+
+                android:id="@+id/bmi"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:background="#FFC0CB"
+                android:text="bmi calculation"
+                android:textSize="25sp"
+
+                android:textStyle="italic"/>
+
+            <Button
+
+
+                android:id="@+id/anemia_care"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="18dp"
+                android:background="#FFB6C1"
+                android:text="anemia care"
+                android:textSize="25sp"
+
+                android:textStyle="italic"/>
+
+            <Button
+
+                android:id="@+id/weight_loss"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="23dp"
+                android:background="#DB7093"
+                android:text="weight loss tips"
+                android:textSize="25sp"
+
+                android:textStyle="italic"/>
+
+            <Button
+
+
+                android:id="@+id/weight_gain"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:background="#FFC0CB"
+                android:text="weight gain tips"
+                android:textSize="25sp"
+
+                android:textStyle="italic"/>
+
+            <Button
+
+
+                android:id="@+id/diabetes_care"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="18dp"
+                android:background="#FFB6C1"
+                android:text="diabetes care"
+                android:textSize="25sp"
+
+                android:textStyle="italic"/>
+
+            <Button
+
+
+                android:id="@+id/metabolism"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="23dp"
+                android:background="#DB7093"
+                android:text="digestion  metabolism"
+                android:textSize="25sp"
+
+                android:textStyle="italic"/>
+
+            <Button
+
+
+                android:id="@+id/higBP"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="25dp"
+                android:background="#FFC0CB"
+                android:text="hypertension (high bp)"
+                android:textSize="25sp"
+
+                android:textStyle="italic"/>
+
+            <Button
+
+                android:id="@+id/lowBP"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="25dp"
+                android:background="#FFB6C1"
+                android:text="hypotension (low bp)"
+                android:textSize="25sp"
+
+                android:textStyle="italic"/>
+
+            <Button
+
+
+                android:id="@+id/pregnancy_tips"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:background="#DB7093"
+                android:text="pregnency tips"
+                android:textSize="25sp"
+
+                android:textStyle="italic"/>
+
+            <Button
+
+
+                android:id="@+id/fitness_tips"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="18dp"
+                android:background="#FFC0CB"
+                android:text="general fitness tips"
+                android:textSize="24sp"
+
+                android:textStyle="italic"/>
+
+
+            <Button
+
+
+                android:id="@+id/prev"
+                android:layout_width="80dp"
+                android:layout_height="38dp"
+
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="3dp"
+                android:background="#98FB98"
+                android:text="prev"
+                android:textSize="24sp"
+
+                android:textStyle="italic"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

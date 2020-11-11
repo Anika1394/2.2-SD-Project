@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hypertension"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    tools:context=".Hypertension">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/heading"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="50dp"
+        android:paddingBottom="40dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="30dp"
+            android:paddingEnd="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:id="@+id/introduction" />
+
+
+            <TextView
+                android:id="@+id/title1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                android:layout_marginTop="150dp"/>
+
+
+
+
+            <TextView
+                android:id="@+id/content1"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_below="@id/title1"
+
+                android:layout_marginTop="10dp" />
+
+            >
+
+
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/content1"
+                android:layout_marginTop="10dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:id="@+id/content2"
+                android:layout_below="@id/title2"
+                android:layout_marginTop="10dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/title3"
+                android:layout_below="@id/content2"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:id="@+id/content3"
+                android:layout_below="@id/title3"
+                android:layout_marginTop="10dp"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="260dp"
+        android:text="prev"
+        android:textStyle="italic"
+        android:id="@+id/prev"/>
+
+</RelativeLayout>

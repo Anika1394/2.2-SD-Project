@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BmiCalculator"
+
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/bmi">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="180dp"
+        android:text="Weight (kg)"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="180dp"
+        android:ems="6"
+        android:inputType="number|numberDecimal"
+        android:textSize="20sp"
+        />
+
+
+    <TextView
+        android:text="Height (cm)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:ems="6"
+        android:inputType="number|numberDecimal"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="10dp"
+        android:onClick="calculateBMI"
+        android:text="Calculate BMI"
+        android:background="#F50202"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="260dp"
+        android:text="prev"
+        android:textStyle="italic"
+        android:id="@+id/prev"
+        android:background="#F50707"/>
+
+
+
+
+</LinearLayout>
